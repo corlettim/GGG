@@ -49,6 +49,7 @@ not be able to say no!
 ## ConfirmFileExists
 > Check Provided by GatorGrader: ConfirmFileExists<br>
 > format: ConfirmFileExists [-h] --file FILE --directory DIR<br>
+> example: ConfirmFileExists <br>
 > optional arguments:<br>
 >> -h, --help       show this help message and exit<br>
 >
@@ -60,6 +61,7 @@ not be able to say no!
 ## CountCommandOutput
 > Check Provided by GatorGrader: CountCommandOutput<br>
 > format: CountCommandOutput [-h] --command COMMAND --count COUNT [--exact]<br>
+> example: CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact <br>
 > optional arguments:<br>
 >> -h, --help         show this help message and exit<br>
 >
@@ -75,6 +77,7 @@ not be able to say no!
 ## CountCommits
 > Check Provided by GatorGrader: CountCommits<br>
 > format: CountCommits [-h] --count COUNT [--exact]<br>
+> example: CountCommits --count 10<br>
 > optional arguments:<br>
 >> -h, --help     show this help message and exit<br>
 >
@@ -121,6 +124,7 @@ not be able to say no!
 ## CountFileWords
 > Check Provided by GatorGrader: CountFileWords<br>
 > format: CountFileWords [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
+> example: CountFileWords --count 300<br>
 > optional arguments:<br>
 >> -h, --help       show this help message and exit<br>
 >
@@ -138,6 +142,7 @@ not be able to say no!
 ## CountMarkdownTags
 > Check Provided by GatorGrader: CountMarkdownTags<br>
 > format: CountMarkdownTags [-h] --tag TAG --file FILE --directory DIR --count COUNT [--exact]<br>
+> example:   CountMarkdownTags --tag "heading" --count 6 --exact<br>
 > optional arguments:<br>
 >> -h, --help       show this help message and exit<br>
 >
@@ -213,6 +218,7 @@ not be able to say no!
 ## ExecuteCommand
 > Check Provided by GatorGrader: ExecuteCommand<br>
 > format: ExecuteCommand [-h] --command COMMAND<br>
+> example: ExecuteCommand --command "gradle build"<br>
 > optional arguments:<br>
 >> -h, --help         show this help message and exit<br>
 >
@@ -263,9 +269,10 @@ not be able to say no!
 >
 >> --exact        equals instead of a minimum number (default: False)<br>
 
-## MatchFileFragmentS
+## MatchFileFragment
 > Check Provided by GatorGrader: MatchFileFragment<br>
 > format: MatchFileFragment [-h] --file FILE --directory DIR --fragment FRAG --count COUNT [--exact]<br>
+> example: MatchFileFragment --fragment "TODO" --count 0 --exact<br>
 > optional arguments:<br>
 >> -h, --help       show this help message and exit<br>
 >
