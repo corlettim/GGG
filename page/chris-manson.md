@@ -1,16 +1,19 @@
 ---
-title: Built with ❤️ by Chris Manson
+title: Built with ❤️ by The GatorGrader Girls
 image: /images/built-by.jpg
 imageMeta:
   attribution:
   attributionLink:
 featured: true
 authors:
-  - ghost
 date: Tue Jun 12 2018 17:50:55 GMT+0100 (IST)
 tags:
 ---
 
-[Chris Manson](https://twitter.com/real_ate) is a Ember enthusiast and a member of the [Ember Core Learning Team](https://emberjs.com/team). empress-blog was an experimental project that came out of the work on converting the [Ember Guides](https://guides.emberjs.com) to be a static Ember application. empress-blog has since inspired the creation of [Guidemaker](https://github.com/empress/guidemaker) and is a driving force for the evolution of the Ember static site ecosystem.
-
-empress-blog is entirely open source so if you want to see how it works or if you would like to contribute please [check out the git repository](https://github.com/empress/empress-blog).
+Hannah, Alex, and Megan are students at Allegheny College. Inspired by the world
+around them, they took on the challenge of becoming computer science majors. As
+a way to grow and develop in their coding abilities, they were presented with
+the idea of joining the GatorGrader team and developing code for the automated
+testing tool. A semester later, they are the lead software engineers on this
+project and have devoted time to creating a website that will allow people to
+better understand GatorGrader.
