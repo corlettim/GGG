@@ -19,8 +19,7 @@ colleagues within the classroom.
 <!-- -->
 > For being someone who came into college never having coded before, GatorGrader
 > gave me a confidence when it came to knowing what to code and how to go about
-> completing the necessary tasks. **Megan Corletti**, student
-
+> completing the necessary tasks. **GatorGraderGirls**, software engineers
 
 <!-- -->
 > This tool suite made it easier for me to talk with students about technical
