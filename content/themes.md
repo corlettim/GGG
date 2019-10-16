@@ -1,25 +1,44 @@
 ---
-title: Setting up your own Ghost theme
+title: What do people think about GatorGrader?
 image: /images/design.jpg
 imageMeta:
   attribution:
   attributionLink:
 featured: true
 authors:
-  - ghost
-date: Tue Jun 12 2018 17:49:21 GMT+0100 (IST)
-tags:
-  - getting-started
+date: Tue Jun 12 2019 17:49:21 GMT+0100 (IST)
 ---
-empress-blog currently only supports 2 themes, the default [Casper template](https://github.com/empress/empress-blog-casper-template) and the [Attila template](https://github.com/empress/empress-blog-attila-template). If you want to swap between templates it is as simple as installing a different npm dependency 🎉
+Here at GatorGrader, we take pride in knowing what our users think! Below are
+some quotes from users expressing how GatorGrader has helped them and their
+colleagues within the classroom.
 
-The [empress-blog documentation](https://github.com/empress/empress-blog/blob/master/README.md) recommends that you use the default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. The empress-blog-casper-template is a direct fork of Ghost's official Casper repository so it aims to be as close as possible to the original.
+> GitHub Classroom, Travis CI, and GatorGrader made it easier for me to
+> effectively deliver programming labs in and introductory computer science
+> course. **Janyl Jumadinova**, instructor
 
-If you are interested in writing your own theme for empress-blog you can get started using
+<!-- -->
+> For being someone who came into college never having coded before, GatorGrader
+> gave me a confidence when it came to knowing what to code and how to go about
+> completing the necessary tasks. **Megan Corletti**, student
 
-```sh
-npm init empress-blog-template <template-name>
-```
-and it will create a brand new template addon in the folder `empress-blog-template-name-template`! You can check out the documentation for [create-empress-blog-template here](https://github.com/empress/create-empress-blog-template#readme). As [Ghost](https://ghost.org/) uses handlebars it is not too difficult to port an existing Ghost template to use Ember templates, so if you have any requests for an existing open source Ghost template please let us know 👍
 
-If you do end up writing an empress-blog template please let me know [on Twitter](https://twitter.com/real_ate) so I can include your template in a list of existing templates.
+<!-- -->
+> This tool suite made it easier for me to talk with students about technical
+> requirements. It helped me to make complex assignments more accessible to
+> students. **Maria Kim**, teaching assistant
+
+<!-- -->
+> GatorGrader encouraged me to add better code comments and try out language
+> constructs that I would not have otherwise investigated. The tool was a big
+> help this semester! **Samatha Darris**, student
+
+<!-- -->
+> GatorGrader is like having a constant coach! I liked receiving feedback on the
+> quality of my source code and writing before turning in the final version of
+> my lab. **Anna Yeager**, student
+
+<!-- -->
+> Insert quote from Professor Luman **Douglas Luman**, instructor
+
+<!-- -->
+> Insert quote from Gregory **Gregory Kapfhammer**, creator of GatorGrader
