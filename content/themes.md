@@ -38,7 +38,4 @@ colleagues within the classroom.
 > my lab. **Anna Yeager**, student
 
 <!-- -->
-> Insert quote from Professor Luman **Douglas Luman**, instructor
-
-<!-- -->
-> Insert quote from Gregory **Gregory Kapfhammer**, creator of GatorGrader
+> It lets me up my teaching game! **Douglas Luman**, instructor
