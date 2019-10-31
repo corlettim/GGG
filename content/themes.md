@@ -17,8 +17,8 @@ colleagues within the classroom.
 > course. **Janyl Jumadinova**, instructor
 
 <!-- -->
-> For being someone who came into college never having coded before, GatorGrader
-> gave me a confidence when it came to knowing what to code and how to go about
+> For being a group who came into college never having coded before, GatorGrader
+> gave us a confidence when it came to knowing what to code and how to go about
 > completing the necessary tasks. **GatorGraderGirls**, software engineers
 
 <!-- -->
