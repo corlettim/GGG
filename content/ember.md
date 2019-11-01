@@ -64,7 +64,7 @@ automated checks that will represent a plug-in basis.
 
 ## CountFileLines
 > Check Provided by GatorGrader: CountFileLines <br>
-> Format: CountFileLines [-h] --file FILE --directory DIR --count COUNT [--exact] <br>
+> Format: CountFileLines [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
 > Example: CountFileLines --count 100<br>
 
 ## CountFileParagraphs
@@ -74,7 +74,7 @@ automated checks that will represent a plug-in basis.
 
 ## CountFileWords
 > Check Provided by GatorGrader: CountFileWords<br>
-> Format: CountFileWords [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
+> Format: CountFileWords [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
 > Example: CountFileWords --count 300<br>
 
 ## CountMarkdownTags
@@ -85,7 +85,7 @@ automated checks that will represent a plug-in basis.
 ## CountMultipleLineComments
 > Check Provided by GatorGrader: CountMultipleLineComments<br>
 > Format: CountMultipleLineComments [-h] --file FILE --directory DIR --count COUNT [--language LANG]
-[--exact]<br>
+[--exact] [--reach]<br>
 > Example: CountMultipleLineComments --language Java --count 2<br>
 
 ## CountParagraphWords
@@ -96,7 +96,7 @@ automated checks that will represent a plug-in basis.
 ##CountSingleLineComments
 > Check Provided by GatorGrader: CountSingleLineComments<br>
 > Format: CountSingleLineComments [-h] --file FILE --directory DIR --count COUNT [--language
-{Java,Python}] [--exact]<br>
+{Java,Python}] [--exact] [--reach]<br>
 > Example: CountSingleLineComments --language Java --count 2<br>
 
 ## ExecuteCommand
@@ -121,7 +121,7 @@ automated checks that will represent a plug-in basis.
 
 ## MatchFileFragment
 > Check Provided by GatorGrader: MatchFileFragment<br>
-> Format: MatchFileFragment [-h] --file FILE --directory DIR --fragment FRAG --count COUNT [--exact]<br>
+> Format: MatchFileFragment [-h] --file FILE --directory DIR --fragment FRAG --count COUNT [--exact] [--reach]<br>
 > Example: MatchFileFragment --fragment "TODO" --count 0 --exact<br>
 
 ## MatchFileRegex
