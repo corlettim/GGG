@@ -1,5 +1,5 @@
 ---
-title: Get your Linting Checks here!
+title: Get your Automated Checks here!
 image: /images/ember.jpg
 imageMeta:
   attribution: by The GatorGraderGirls
@@ -10,9 +10,10 @@ date: Fri Sept 13 2019 17:50:59 GMT+0100 (IST)
 
 ---
 
-We love linting, yes we do, we love linting, how about you? Linting checks provide
-a more structured and cohesive grading process than ever before. Professors will
-not be able to say no!
+The GatorGrader automated checks provide a more structured and cohesive grading
+process than ever before. Professors will not be able to say no! While we have
+a definite 16 automated checks, instructors will be able to create their own
+automated checks that will represent a plug-in basis.
 
 **1. [confirmfileexists](#confirmfileexists)**<br>
 
