@@ -11,7 +11,7 @@ tags:
 ---
 
 Hannah, Alex, and Megan are students at Allegheny College. Inspired by the world
-around them, they took on the challenge of becoming computer science majors. As
+around them, they took on the challenge of becoming Computer Science majors. As
 a way to grow and develop in their coding abilities, they were presented with
 the idea of joining the GatorGrader team and developing code for the automated
 testing tool. A semester later, they are the lead software engineers on this
