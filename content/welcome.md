@@ -14,16 +14,14 @@ Hey there, alligator! We are glad to have you!
 We know that first impressions are important, so let's go for a fun little ride.
 The world of GatorGrader is waiting for you.
 
-
-
 ### There are a few things that you should know up-front:
 
-1. We are an automated testing tool that makes not only a professor's life easier,
-but also a student's.
+1. GatorGrader is an automated testing tool that makes learning easier for students
+when completing laboratory assignments.
 
-2. Made for students, run by students! While we are advised by one of the smartest
-computer scientists in the world, as we grow as coders, we allow the tool to grow
+2. Made for students, run by students! While we are advised by a professor at
+Allegheny college, as we grow as developers, we allow the tool to grow
 with us.
 
 3. We give an easy to follow setup, that eliminates stress and regret! We assure
-you, you are making the right decision.
+you, you are making the right decision for both you and your students.

@@ -1,5 +1,5 @@
 ---
-title: Get your Linting Checks here!
+title: Get your Automated Checks here!
 image: /images/ember.jpg
 imageMeta:
   attribution: by The GatorGraderGirls
@@ -10,9 +10,10 @@ date: Fri Sept 13 2019 17:50:59 GMT+0100 (IST)
 
 ---
 
-We love linting, yes we do, we love linting, how about you? Linting checks provide
-a more structured and cohesive grading process than ever before. Professors will
-not be able to say no!
+The GatorGrader automated checks provide a more structured and cohesive grading
+process than ever before. Professors will not be able to say no! While we have
+a definite 14 automated checks, instructors will be able to create their own
+automated checks that will represent a plug-in basis.
 
 **1. [confirmfileexists](#confirmfileexists)**<br>
 
@@ -36,271 +37,87 @@ not be able to say no!
 
 **11. [executecommand](#executecommand)**<br>
 
-**12. [listchecks](#listchecks)**<br>
+**12. [matchcommandfragment](#matchcommandfragment)**<br>
 
-**13. [matchcommandfragment](#matchcommandfragment)**<br>
+**13. [matchcommandregex](#matchcommandregex)**<br>
 
-**14. [matchcommandregex](#matchcommandregex)**<br>
+**14. [matchfilefragment](#matchfilefragment)**<br>
 
-**15. [matchfilefragment](#matchfilefragment)**<br>
-
-**16. [matchfileregex](#matchfileregex)**<br>
+**14. [matchfileregex](#matchfileregex)**<br>
 
 ## ConfirmFileExists
 > Check Provided by GatorGrader: ConfirmFileExists<br>
-> format: ConfirmFileExists [-h] --file FILE --directory DIR<br>
-> example: ConfirmFileExists <br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
+> Format: ConfirmFileExists [-h] --file FILE --directory DIR<br>
+> Example: ConfirmFileExists <br>
 
 ## CountCommandOutput
 > Check Provided by GatorGrader: CountCommandOutput<br>
-> format: CountCommandOutput [-h] --command COMMAND --count COUNT [--exact]<br>
-> example: CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact <br>
-> optional arguments:<br>
->> -h, --help         show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --command COMMAND  command to execute (default: None)<br>
->> --count COUNT      how many of lines of output should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact            equals instead of a minimum number (default: False)<br>
+> Format: CountCommandOutput [-h] --command COMMAND --count COUNT [--exact]<br>
+> Example: CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact <br>
 
 ## CountCommits
 > Check Provided by GatorGrader: CountCommits<br>
-> format: CountCommits [-h] --count COUNT [--exact]<br>
-> example: CountCommits --count 10<br>
-> optional arguments:<br>
->> -h, --help     show this help message and exit<br>
->
-> required check arguments:<br>
->
->> --count COUNT  minimum number of git commits (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact        equals instead of a minimum number (default: False)<br>
+> Format: CountCommits [-h] --count COUNT [--exact]<br>
+> Example: CountCommits --count 10<br>
 
 ## CountFileLines
 > Check Provided by GatorGrader: CountFileLines <br>
-> format: CountFileLines [-h] --file FILE --directory DIR --count COUNT [--exact] <br>
-> optional arguments: <br>
->>  -h, --help       show this help message and exit <br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --count COUNT    how many lines should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: CountFileLines [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
+> Example: CountFileLines --count 100<br>
 
 ## CountFileParagraphs
 > Check Provided by GatorGrader: CountFileParagraphs<br>
-> format: CountFileParagraphs [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --count COUNT    how many paragraphs should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: CountFileParagraphs [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
+> Example: CountFileParagraphs --count 7<br>
 
 ## CountFileWords
 > Check Provided by GatorGrader: CountFileWords<br>
-> format: CountFileWords [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
-> example: CountFileWords --count 300<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --count COUNT    how many total words should exist in the file (default:
-                   None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: CountFileWords [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
+> Example: CountFileWords --count 300<br>
 
 ## CountMarkdownTags
 > Check Provided by GatorGrader: CountMarkdownTags<br>
-> format: CountMarkdownTags [-h] --tag TAG --file FILE --directory DIR --count COUNT [--exact]<br>
-> example:   CountMarkdownTags --tag "heading" --count 6 --exact<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --tag TAG        markdown tag that exists in a file<br>
->> --file FILE      file for checking<br>
->> --directory DIR  directory with file for checking<br>
->> --count COUNT    how many tag instances should exist<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number<br>
->> examples of available tags: code, code_block, heading, image, link, list, paragraph
->> markdown tag reference: https://spec.commonmark.org/0.29/<br>
+> Format: CountMarkdownTags [-h] --tag TAG --file FILE --directory DIR --count COUNT [--exact]<br>
+> Example: CountMarkdownTags --tag "heading" --count 6 --exact<br>
 
 ## CountMultipleLineComments
 > Check Provided by GatorGrader: CountMultipleLineComments<br>
-> format: CountMultipleLineComments [-h] --file FILE --directory DIR --count COUNT [--language LANG]
-[--exact]<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --count COUNT    how many multiple-line comments should exist (default:
-                   None)<br>
->> --language LANG  language for the multiple-line comments (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: CountMultipleLineComments [-h] --file FILE --directory DIR --count COUNT [--language LANG]
+[--exact] [--reach]<br>
+> Example: CountMultipleLineComments --language Java --count 2<br>
 
 ## CountParagraphWords
 > Check Provided by GatorGrader: CountParagraphWords<br>
-> format: CountParagraphWords [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --count COUNT    how many words should exist in every paragraph (default:
-                   None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: CountParagraphWords [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
+> Example: CountParagraphWords --count 100<br>
 
 ##CountSingleLineComments
 > Check Provided by GatorGrader: CountSingleLineComments<br>
-> format: CountSingleLineComments [-h] --file FILE --directory DIR --count COUNT [--language
-{Java,Python}] [--exact]<br>
-> optional arguments:<br>
->> -h, --help            show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE           file for checking (default: None)<br>
->> --directory DIR       directory with file for checking (default: None)<br>
->> --count COUNT         how many single-line comments should exist (default:
-                        None)<br>
->> --language {Java,Python}
-                        language for the single-line comments (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact               equals instead of a minimum number (default: False)<br>
+> Format: CountSingleLineComments [-h] --file FILE --directory DIR --count COUNT [--language
+{Java,Python}] [--exact] [--reach]<br>
+> Example: CountSingleLineComments --language Java --count 2<br>
 
 ## ExecuteCommand
 > Check Provided by GatorGrader: ExecuteCommand<br>
-> format: ExecuteCommand [-h] --command COMMAND<br>
-> example: ExecuteCommand --command "gradle build"<br>
-> optional arguments:<br>
->> -h, --help         show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --command COMMAND  command to execute (default: None)<br>
-
-## ListChecks
-> Check Provided by GatorGrader: ListChecks<br>
-> format: ListChecks [-h] [--namecontains LABEL]<br>
-> optional arguments:<br>
->> -h, --help            show this help message and exit<br>
->
-> optional check arguments:<br>
->
->> --namecontains LABEL  filter by label that name must contain (default: None)<br>
+> Format: ExecuteCommand [-h] --command COMMAND<br>
+> Example: ExecuteCommand --command "gradle build"<br>
 
 ## MatchCommandFragment
 > Check Provided by GatorGrader: MatchCommandFragment<br>
-> format: MatchCommandFragment [-h] --command CMD --fragment FRAG --count COUNT [--exact]<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
-  >> --command CMD    command to execute (default: None)<br>
-  >> --fragment FRAG  fragment that exists in command output (default: None)<br>
-  >> --count COUNT    how many of fragment should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: MatchCommandFragment [-h] --command CMD --fragment FRAG --count COUNT [--exact]<br>
+> Example: MatchCommandFragment --command "htmlhint src/www/index.html" --fragment "no errors found" --count 1 --exact<br>
 
 ## MatchCommandRegex
 > Check Provided by GatorGrader: MatchCommandRegex<br>
-> format: MatchCommandRegex [-h] --command CMD --regex REGEX --count COUNT [--exact]<br>
-> optional arguments:<br>
->> -h, --help     show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --command CMD  command to execute (default: None)<br>
->> --regex REGEX  regular expression that matches command output (default:
-                 None)<br>
->> --count COUNT  how many regex matches should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact        equals instead of a minimum number (default: False)<br>
+> Format: MatchCommandRegex [-h] --command CMD --regex REGEX --count COUNT [--exact]<br>
+> Example: MatchCommandRegex --command "gradle -q --console plain run" --count 1 --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --exact<br>
 
 ## MatchFileFragment
 > Check Provided by GatorGrader: MatchFileFragment<br>
-> format: MatchFileFragment [-h] --file FILE --directory DIR --fragment FRAG --count COUNT [--exact]<br>
-> example: MatchFileFragment --fragment "TODO" --count 0 --exact<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --fragment FRAG  fragment that exists in the file (default: None)<br>
->> --count COUNT    how many of a fragment should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: MatchFileFragment [-h] --file FILE --directory DIR --fragment FRAG --count COUNT [--exact] [--reach]<br>
+> Example: MatchFileFragment --fragment "TODO" --count 0 --exact<br>
 
 ## MatchFileRegex
 > Check Provided by GatorGrader: MatchFileRegex<br>
-> format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact]<br>
-> optional arguments:<br>
->> -h, --help       show this help message and exit<br>
->
-> required checker arguments:<br>
->
->> --file FILE      file for checking (default: None)<br>
->> --directory DIR  directory with file for checking (default: None)<br>
->> --regex REGEX    regular expression that matches file contents (default:
-                   None)<br>
->> --count COUNT    how many regex matches should exist (default: None)<br>
->
-> optional check arguments:<br>
->
->> --exact          equals instead of a minimum number (default: False)<br>
+> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact]<br>
+> Example: MatchFileRegex --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --count 2
