@@ -37,15 +37,13 @@ automated checks that will represent a plug-in basis.
 
 **11. [executecommand](#executecommand)**<br>
 
-**12. [listchecks](#listchecks)**<br>
+**12. [matchcommandfragment](#matchcommandfragment)**<br>
 
-**13. [matchcommandfragment](#matchcommandfragment)**<br>
+**13. [matchcommandregex](#matchcommandregex)**<br>
 
-**14. [matchcommandregex](#matchcommandregex)**<br>
+**14. [matchfilefragment](#matchfilefragment)**<br>
 
-**15. [matchfilefragment](#matchfilefragment)**<br>
-
-**16. [matchfileregex](#matchfileregex)**<br>
+**14. [matchfileregex](#matchfileregex)**<br>
 
 ## ConfirmFileExists
 > Check Provided by GatorGrader: ConfirmFileExists<br>
@@ -103,11 +101,6 @@ automated checks that will represent a plug-in basis.
 > Check Provided by GatorGrader: ExecuteCommand<br>
 > Format: ExecuteCommand [-h] --command COMMAND<br>
 > Example: ExecuteCommand --command "gradle build"<br>
-
-## ListChecks
-> Check Provided by GatorGrader: ListChecks<br>
-> Format: ListChecks [-h] [--namecontains LABEL]<br>
-> Example: ListChecks --namecontains LABEL
 
 ## MatchCommandFragment
 > Check Provided by GatorGrader: MatchCommandFragment<br>
