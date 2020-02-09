@@ -47,7 +47,7 @@ automated checks that will represent a plug-in basis.
 
 ## ConfirmFileExists
 > Check Provided by GatorGrader: ConfirmFileExists<br>
-> Format: ConfirmFileExists [-h] --file FILE --directory DIR<br>
+> Format: ConfirmFileExists [-h] --file FILE --directory DIR [--reach]<br>
 > Example: ConfirmFileExists <br>
 
 ## CountCommandOutput
@@ -67,7 +67,7 @@ automated checks that will represent a plug-in basis.
 
 ## CountFileParagraphs
 > Check Provided by GatorGrader: CountFileParagraphs<br>
-> Format: CountFileParagraphs [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
+> Format: CountFileParagraphs [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
 > Example: CountFileParagraphs --count 7<br>
 
 ## CountFileWords
@@ -77,7 +77,7 @@ automated checks that will represent a plug-in basis.
 
 ## CountMarkdownTags
 > Check Provided by GatorGrader: CountMarkdownTags<br>
-> Format: CountMarkdownTags [-h] --tag TAG --file FILE --directory DIR --count COUNT [--exact]<br>
+> Format: CountMarkdownTags [-h] --tag TAG --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
 > Example: CountMarkdownTags --tag "heading" --count 6 --exact<br>
 
 ## CountMultipleLineComments
@@ -88,7 +88,7 @@ automated checks that will represent a plug-in basis.
 
 ## CountParagraphWords
 > Check Provided by GatorGrader: CountParagraphWords<br>
-> Format: CountParagraphWords [-h] --file FILE --directory DIR --count COUNT [--exact]<br>
+> Format: CountParagraphWords [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
 > Example: CountParagraphWords --count 100<br>
 
 ##CountSingleLineComments
@@ -99,17 +99,17 @@ automated checks that will represent a plug-in basis.
 
 ## ExecuteCommand
 > Check Provided by GatorGrader: ExecuteCommand<br>
-> Format: ExecuteCommand [-h] --command COMMAND<br>
+> Format: ExecuteCommand [-h] --command COMMAND [--reach]<br>
 > Example: ExecuteCommand --command "gradle build"<br>
 
 ## MatchCommandFragment
 > Check Provided by GatorGrader: MatchCommandFragment<br>
-> Format: MatchCommandFragment [-h] --command CMD --fragment FRAG --count COUNT [--exact]<br>
+> Format: MatchCommandFragment [-h] --command CMD --fragment FRAG --count COUNT [--exact] [--reach]<br>
 > Example: MatchCommandFragment --command "htmlhint src/www/index.html" --fragment "no errors found" --count 1 --exact<br>
 
 ## MatchCommandRegex
 > Check Provided by GatorGrader: MatchCommandRegex<br>
-> Format: MatchCommandRegex [-h] --command CMD --regex REGEX --count COUNT [--exact]<br>
+> Format: MatchCommandRegex [-h] --command CMD --regex REGEX --count COUNT [--exact] [--reach]<br>
 > Example: MatchCommandRegex --command "gradle -q --console plain run" --count 1 --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --exact<br>
 
 ## MatchFileFragment
@@ -119,5 +119,5 @@ automated checks that will represent a plug-in basis.
 
 ## MatchFileRegex
 > Check Provided by GatorGrader: MatchFileRegex<br>
-> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact]<br>
+> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact] [--reach]<br>
 > Example: MatchFileRegex --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --count 2
