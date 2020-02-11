@@ -35,4 +35,4 @@ Optional tags are marked in the examples by square brackets.
 - [--exact]: if you want one of your required tags to be exact; usually accompanied
 with the COUNT tag.
 - [--reach]: accompanies a check if they are not required to be completed but
-urge the student to try and "reach" the next step in the assignemnt.
+urge the student to try and "reach" the next step in the assignment.
