@@ -27,7 +27,7 @@ Optional tags are marked in the examples by square brackets.
 # The required tags:
 - FILE: the name of the file that you want checked.
 - DIR: the name of the directory you want checked.
-- COMMAND: the command that you want to check.
+- CMD: the command that you want to check.
 - COUNT: the number that must be met.
 - FRAG: the fragment, in quotations, that you want to be checked.
 # The optional tags

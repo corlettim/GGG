@@ -47,12 +47,12 @@ automated checks that will represent a plug-in basis.
 
 ## ConfirmFileExists
 > Check Provided by GatorGrader: ConfirmFileExists<br>
-> Format: ConfirmFileExists [-h] --file FILE --directory DIR [--reach]<br>
+> Format: ConfirmFileExists [-h] --file FILE --directory DIR <br>
 > Example: ConfirmFileExists <br>
 
 ## CountCommandOutput
 > Check Provided by GatorGrader: CountCommandOutput<br>
-> Format: CountCommandOutput [-h] --command COMMAND --count COUNT [--exact]<br>
+> Format: CountCommandOutput [-h] --command CMD --count COUNT [--exact]<br>
 > Example: CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact <br>
 
 ## CountCommits
@@ -88,7 +88,7 @@ automated checks that will represent a plug-in basis.
 
 ## CountParagraphWords
 > Check Provided by GatorGrader: CountParagraphWords<br>
-> Format: CountParagraphWords [-h] --file FILE --directory DIR --count COUNT [--exact] [--reach]<br>
+> Format: CountParagraphWords [-h] --file FILE --directory DIR --count COUNT [--exact] <br>
 > Example: CountParagraphWords --count 100<br>
 
 ##CountSingleLineComments
@@ -99,7 +99,7 @@ automated checks that will represent a plug-in basis.
 
 ## ExecuteCommand
 > Check Provided by GatorGrader: ExecuteCommand<br>
-> Format: ExecuteCommand [-h] --command COMMAND [--reach]<br>
+> Format: ExecuteCommand [-h] --command CMD <br>
 > Example: ExecuteCommand --command "gradle build"<br>
 
 ## MatchCommandFragment
@@ -119,5 +119,5 @@ automated checks that will represent a plug-in basis.
 
 ## MatchFileRegex
 > Check Provided by GatorGrader: MatchFileRegex<br>
-> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact] [--reach]<br>
+> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact] <br>
 > Example: MatchFileRegex --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --count 2
