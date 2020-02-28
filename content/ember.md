@@ -119,5 +119,5 @@ automated checks that will represent a plug-in basis.
 
 ## MatchFileRegex
 > Check Provided by GatorGrader: MatchFileRegex<br>
-> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact] <br>
+> Format: MatchFileRegex [-h] --file FILE --directory DIR --regex REGEX --count COUNT [--exact] [--reach]<br>
 > Example: MatchFileRegex --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --count 2
