@@ -17,33 +17,33 @@ automated checks that will represent a plug-in basis.
 
 **1. [ConfirmFileExists](#confirmfileexists)**<br>
 
-**2. [countcommandoutput](#countcommandoutput)**<br>
+**2. [CountCommandOutput](#countcommandoutput)**<br>
 
-**3. [countcommits](#countcommits)**<br>
+**3. [CountCommits](#countcommits)**<br>
 
-**4. [countfilelines](#countfilelines)**<br>
+**4. [CountFileLines](#countfilelines)**<br>
 
-**5. [countfileparagraphs](#countfileparagraphs)**<br>
+**5. [CountFileParagraphs](#countfileparagraphs)**<br>
 
-**6. [countfilewords](#countfilewords)**<br>
+**6. [CountFileWords](#countfilewords)**<br>
 
-**7. [countmarkdowntags](#countmarkdowntags)**<br>
+**7. [CountMarkdownTags](#countmarkdowntags)**<br>
 
-**8. [countmultiplelinecomments](#countmultiplelinecomments)**<br>
+**8. [CountMultipleLineComments](#countmultiplelinecomments)**<br>
 
-**9. [countparagraphwords](#countparagraphwords)**<br>
+**9. [CountParagraphWords](#countparagraphwords)**<br>
 
-**10. [countsinglelinecomments](#countsinglelinecomments)**<br>
+**10. [CountSingleLineComments](#countsinglelinecomments)**<br>
 
-**11. [executecommand](#executecommand)**<br>
+**11. [ExecuteCommand](#executecommand)**<br>
 
-**12. [matchcommandfragment](#matchcommandfragment)**<br>
+**12. [MatchCommandFragment](#matchcommandfragment)**<br>
 
-**13. [matchcommandregex](#matchcommandregex)**<br>
+**13. [MatchCommandRegex](#matchcommandregex)**<br>
 
-**14. [matchfilefragment](#matchfilefragment)**<br>
+**14. [MatchFileFragment](#matchfilefragment)**<br>
 
-**14. [matchfileregex](#matchfileregex)**<br>
+**15. [MatchFileRegex](#matchfileregex)**<br>
 
 ## ConfirmFileExists
 > Check Provided by GatorGrader: ConfirmFileExists<br>
