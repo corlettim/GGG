@@ -15,7 +15,7 @@ process than ever before. Professors will not be able to say no! While we have
 a definite 14 automated checks, instructors will be able to create their own
 automated checks that will represent a plug-in basis.
 
-**1. [confirmfileexists](#confirmfileexists)**<br>
+**1. [ConfirmFileExists](#confirmfileexists)**<br>
 
 **2. [countcommandoutput](#countcommandoutput)**<br>
 
