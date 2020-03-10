@@ -13,11 +13,13 @@ date: Fri Sept 13 2019 17:50:55 GMT+0100 (IST)
 
 Want to know more about GatorGrader?
 
-Check us out on GitHub! Follow this link and it will answer all of your hopes
-and dreams! [GatorGrader GitHub](https://github.com/orgs/GatorEducator/teams/gatorgrader)
+Check us out on GitHub! If you follow this link, it will take you to our organization
+page which has all the technical README and code for how
+GatorGrader works. [GatorGrader GitHub](https://github.com/orgs/GatorEducator/teams/gatorgrader)
 
 
 ## Questions
 
 If you have any questions at all, please let us know! You are more than welcome
-to message us on GitHub or send us a quick email at GatorGraderGirls@gmail.com!
+to create an issue on our issue tracker and we will get back to you at our
+earliest convenience. 
