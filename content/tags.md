@@ -13,7 +13,7 @@ date: Fri Feb 10 2019 17:50:59 GMT+0100 (IST)
 Since our checks have minute details, it is vital that our users understand
 just exactly how to make them.
 
-### There are two kinds of tags.
+## There are two kinds of tags.
 1. The first is a required tag which can be self
 explanatory. A required tag will be displayed in the example of checks by the
 all capital letters. Required arguments must accompany the check that they are
@@ -24,13 +24,13 @@ it is not necessary that you use the optional tags but they are there is you wis
 Optional tags are marked in the examples by square brackets.
 
 ## Listed below will be explanations of what each individual tag means or is asking.
-# The required tags:
+### The required tags:
 - FILE: the name of the file that you want checked.
 - DIR: the name of the directory you want checked.
 - CMD: the command that you want to check.
 - COUNT: the number that must be met.
 - FRAG: the fragment, in quotations, that you want to be checked.
-# The optional tags
+### The optional tags
 - [-h]: attached to the end of your check for help if necessary
 - [--exact]: if you want one of your required tags to be exact; usually accompanied
 with the COUNT tag.
